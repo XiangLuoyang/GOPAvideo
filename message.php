@@ -137,7 +137,15 @@ color: #0000FF;
        echo '共有'.$result->rowCount().'条留言';
         ?>
         <!-- <a href="Search.php">搜索留言</a>  -->
-
+        <!--上传文件-->
+        <!--<form name="uploadForm" method="POST" 
+        enctype="multipart/form-data" 
+        action="/ProcessServer/FileOperate/fileUpServlet"> 
+        Upload File1:<input type="file" name="file1" size="30"/> 
+        <input type="submit" name="submit" value="提交"> 
+        <input type="reset" name="reset" value="重置"> 
+        </form>-->
+        <!--结束-->
         <a href="login.html">管理留言</a>
         <div class="form">
        <h2 align="center" sytle="background-color:#cc9; font-size:14px;">发表留言</h2>

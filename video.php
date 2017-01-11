@@ -138,8 +138,8 @@ color: #0000FF;
         ?>
         <!-- <a href="Search.php">搜索留言</a>  -->
 
-        <a href="login.html">管理留言</a>
-        <div class="form">
+        <!--<a href="login.html">管理留言</a>-->
+        <!--<div class="form">
        <h2 align="center" sytle="background-color:#cc9; font-size:14px;">发表留言</h2>
        <form method="post" action="submit.php">
          <table border="0" align="center" cellpadding="4" cellspacing="1" bgcolor="666633">
@@ -159,7 +159,7 @@ color: #0000FF;
                     </tbody></table></form>
 
 
-      </div>
+      </div>-->
 
 </body>
 </html>
