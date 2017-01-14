@@ -1,4 +1,4 @@
-<?php require('conn.php');
+﻿<?php require('conn.php');
   $result=$db->query("select * from lyb order by ID desc")
 ?>
 
@@ -45,6 +45,7 @@
                   <a href="index.php" class="navbar-brand">GOPA Video</a>
                   <a href="message.php" class="navbar-brand">留言</a>
                   <a href="video.php" class="navbar-brand">视频列表</a>
+                  <a href="intro.php" class="navbar-brand">绘画过程</a>
               </div>
           </div>
       </nav>
@@ -55,7 +56,7 @@
 
       <div class="jumbotron">
           <div class="container">
-          <h1>你们啊!</h1>
+          <h1>真.灵魂画手</h1>
 
           <p>Too young,too simple.Sometimes naiive!I am angry!Θ..Θ</p>
               <form action ="#" method ="post">
@@ -68,7 +69,8 @@
               </form>
               <!-- +1s系统 -->
               <?php
-              $filename="/Applications/XAMPP/xamppfiles/htdocs/blog/poem.txt";
+              // $filename="/Applications/XAMPP/xamppfiles/htdocs/blog/poem.txt";
+              $filename="poem.txt";
               $file=fopen($filename,'r+') or die ("ERROR OPEN");
               echo "you're the   ";
               readfile($filename);
@@ -93,14 +95,14 @@
 <!--首页动态特效-->
 <main>
 			<section class="content content--c5">
-				<img src="img/left.png" width=300px height=390px>
+				<img src="img/left.png" width=300px height=344px>
 			<div id="player_a" class="projekktor"></div>
 
                 </section>
                 <section class="content content--c6">
 				<a href="#" class="tilter tilter--5">
 					<figure class="tilter__figure">
-						<img class="tilter__image" src="img/author1.jpg" alt="img01" />
+						<img class="tilter__image" src="img/author1.png" alt="img01" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
 						<figcaption class="tilter__caption">
 							<h3 class="tilter__title">项罗阳</h3>
@@ -113,7 +115,7 @@
 				</a>
 				<a href="#" class="tilter tilter--5">
 					<figure class="tilter__figure">
-						<img class="tilter__image" src="img/author2.jpg" alt="img02" />
+						<img class="tilter__image" src="img/author2.png" alt="img02" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
 						<figcaption class="tilter__caption">
 							<h3 class="tilter__title">林玲</h3>

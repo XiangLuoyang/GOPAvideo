@@ -1,4 +1,4 @@
-
+﻿
 
 
 <!Doctype>
@@ -84,6 +84,7 @@ color: #0000FF;
                 <a href="index.php" class="navbar-brand">GOPA Video</a>
                 <a href="message.php" class="navbar-brand">留言</a>
                 <a href="video.php" class="navbar-brand">视频列表</a>
+                <a href="intro.php" class="navbar-brand">绘画过程</a>
               </div>
           </div>
       </nav>
@@ -94,9 +95,9 @@ color: #0000FF;
 
       <div class="jumbotron">
           <div class="container">
-          <h1>你们啊!</h1>
+          <h1>真.灵魂画手</h1>
 
-          <p>Too young,too simple.Sometimes naiive!I am angry!Θ..Θ</p>
+          <p>Wo de tian a ! Θ..Θ</p>
               <form action ="#" method ="post">
                   <?php
                   $x1s="+1s  Θ..Θ";
@@ -107,7 +108,9 @@ color: #0000FF;
               </form>
               <!-- +1s系统 -->
               <?php
-              $filename="/Applications/XAMPP/xamppfiles/htdocs/blog/poem.txt";
+              // $filename="/Applications/XAMPP/xamppfiles/htdocs/blog/poem.txt";
+                            $filename="poem.txt";
+
               $file=fopen($filename,'r+') or die ("ERROR OPEN");
               echo "you're the   ";
               readfile($filename);
