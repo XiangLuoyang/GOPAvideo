@@ -45,7 +45,6 @@
                   <a href="index.php" class="navbar-brand">GOPA Video</a>
                   <a href="message.php" class="navbar-brand">留言</a>
                   <a href="video.php" class="navbar-brand">视频列表</a>
-                  <a href="login.php" class="navbar-brand">用户登录</a>
               </div>
           </div>
       </nav>
@@ -89,46 +88,12 @@
                   </div>
               </div>
       </div></div>
-      <!-- 动态留言板和日志栏在首页上的显示 -->
-      <!-- 首页动态留言板 -->
-      <!--<div id="main">
-          <div id="left">
-              <h4>|最新留言</h4>
-               <ul>
-                //< ? php //if($result->rowCount()>0){
-                  //for($i=0;$i<8;$i++){
-                    //$row=$result->fetch(1); ?>
-                    <li>* < ?//=$row["title"] ?> </li>
-                < ?  }
-                }
-                //else echo "<p>目前还没有客户留言</p>";
-                 ?>
-               </ul>
-              </div>-->
-              
-
-
-      <!-- 首页动态日志本 -->
-          <!--<div id="right">
-              <h4>|最新日志</h4>
-               < ?//php $result=$db->query("select * from article order by id desc limit 2");
-              if($result->rowCount()>0){
-                while($row=$result->fetch(1)){  ?>
-                  <span class="date">< ?=$row["date"] ?></span>
-                  <h5> < ?=//$row["title"] ?> </h5>
-                  <br />
-                  <p><a href="article.php?id=< ? //$row["ID"]?>">< ?= //$row["contest"]?></a></p>
-                  <hr /> 
-                  < ?
-              }}
-            //else echo "<p>目前还没有日志</p>";
-              ?>
-        </div>-->
 </div>
 
 <!--首页动态特效-->
 <main>
 			<section class="content content--c5">
+				<img src="img/left.png" width=300px height=390px>
 			<div id="player_a" class="projekktor"></div>
 
                 </section>
@@ -161,7 +126,7 @@
 				</a>
 				<a href="#" class="tilter tilter--5">
 					<figure class="tilter__figure">
-						<img class="tilter__image" src="img/author3.png" alt="img01" />
+						<img class="tilter__image" src="img/author3.jpg" alt="img01" />
 						<div class="tilter__deco tilter__deco--shine"><div></div></div>
 						<figcaption class="tilter__caption">
 							<h3 class="tilter__title">吴丹妮</h3>

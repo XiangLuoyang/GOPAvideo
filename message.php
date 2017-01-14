@@ -73,7 +73,6 @@ color: #0000FF;
                 <a href="index.php" class="navbar-brand">GOPA video</a>
                 <a href="message.php" class="navbar-brand">留言</a>
                 <a href="video.php" class="navbar-brand">视频列表</a>
-                <a href="login.php" class="navbar-brand">用户登录</a>
               </div>
           </div>
       </nav>
@@ -146,7 +145,7 @@ color: #0000FF;
         <input type="reset" name="reset" value="重置"> 
         </form>-->
         <!--结束-->
-        <a href="login.html">管理留言</a>
+  
         <div class="form">
        <h2 align="center" sytle="background-color:#cc9; font-size:14px;">发表留言</h2>
        <form method="post" action="submit.php">
