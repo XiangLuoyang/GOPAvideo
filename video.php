@@ -4,7 +4,7 @@
 <!Doctype>
 <html>
 <head meta charset="utf-8">
-<title>狗爬视频|GOPA Video</title>
+<title>王老菊视频专辑|SunKnight Video</title>
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <script type="text/javascript" src="jquery-ui/js/jquery.js"></script>
     
@@ -81,10 +81,10 @@ color: #0000FF;
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
               <div class="navbar-header">
-                <a href="index.php" class="navbar-brand">GOPA Video</a>
-                <a href="message.php" class="navbar-brand">留言</a>
+                <a href="index.php" class="navbar-brand">SunKnight Video</a>
+                <!--<a href="message.php" class="navbar-brand">留言</a>-->
                 <a href="video.php" class="navbar-brand">视频列表</a>
-                <a href="intro.php" class="navbar-brand">绘画过程</a>
+                <!--<a href="intro.php" class="navbar-brand">绘画过程</a>-->
               </div>
           </div>
       </nav>
@@ -95,7 +95,7 @@ color: #0000FF;
 
       <div class="jumbotron">
           <div class="container">
-          <h1>真.灵魂画手</h1>
+          <h1>太阳骑士典藏——videos from Bilibili</h1>
 
           <p>Wo de tian a ! Θ..Θ</p>
               <form action ="#" method ="post">
@@ -132,13 +132,12 @@ color: #0000FF;
       </div></div>
       <!-- 视频列表页面具体内容 -->
 <div id='bigvideo'>
-     
      <div id="contentofvideo">
-       <h2>狗爬视频GOPA Video</h2><br/>
+       <h2>@怕上火暴王老菊</h2><br/>
     <div id="mediaplayerloading" style="width:550px;height:400px;">
       <img src="templates/default/images/busy.gif" />
     </div>
-    <div id="mediaplayer" class="mediashowplaylist mediashowtitle mediaplayerdialog ui-dialog ui-widget ui-widget-content ui-corner-all" style="width:550px;height:400px;">
+    <div id="mediaplayer" class="mediashowplaylist mediashowtitle mediaplayerdialog ui-dialog ui-widget ui-widget-content ui-corner-all" style="width:800px;height:600px;">
       <div id="mediatitlebar" class="ui-widget-header ui-corner-top ui-helper-clearfix">
         <div id="mediatitlelinks">
           <div id="mediatitlelinksinner">
