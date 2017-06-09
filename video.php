@@ -10,8 +10,32 @@
     
     <script type="text/javascript" src="js/jquery.osmplayer.compressed.js"></script>
     <script type="text/javascript" src="templates/default/jquery.media.template.default.compressed.js"></script>
+    <?php
+      // $filename="/Applications/XAMPP/xamppfiles/htdocs/blog/poem.txt";
+      $filename="videoAddress.txt";
+      $file=fopen($filename,'r+') or die ("ERROR OPEN");
+      $fileContent=file_get_contents($filename);
+      // $videoList=explode("\n",$fileContent);
+      // echo $videoList;
+      $videoTitle=preg_match($fileContent,'/title');
+      echo $videoTitle;
+    ?>
     <script type="text/javascript">
-      $(function() {
+      $(function() {     
+        $(".btn").click(function(){
+          $.ajax({
+          url: 'playlist.xml',
+          type: 'GET',
+          dataType: 'xml',
+          success: function (xml) {
+            var mediaListNumber = $(xml).find("track").length;
+            for (var i = 0; i < mediaListNumber; i++) {
+                var location = $(xml).find('location').eq(i).text();
+            }
+          }
+        })
+      })
+    
         $("#mediaplayer").mediaplayer({
           playlist: "playlist.xml"
         });
@@ -264,6 +288,6 @@ color: #0000FF;
     </div>
     </div>
     </div>
-
+<!--<script src="js/medialistControl.js"></script>-->
 </body>
 </html>
